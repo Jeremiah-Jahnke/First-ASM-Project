@@ -53,3 +53,9 @@ section .text
 - `call exit` - This calls the `exit` function with the exit code `0`.
 - `add rsp, 28h` - This deallocates the space on the stack that we allocated earlier.
 - `hlt` - This halts the program. This isn't needed, but it's good practice.
+
+## References
+- [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
+- [x64 Assembly Programming](https://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
+- [Windows API](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list)
+- [NASM Manual](https://www.nasm.us/xdoc/2.15.05/html/nasmdoc0.html)
